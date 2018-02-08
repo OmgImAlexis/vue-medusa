@@ -1,0 +1,59 @@
+{
+  "name": "vue-medusa",
+  "version": "0.0.1",
+  "description": "A small wrapper for integrating medusa to Vuejs",
+  "main": "dist/vue-medusa.min.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "npx xo",
+    "build": "npx gulp",
+    "prepublish": "npm run build"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OmgImAlexis/vue-medusa.git"
+  },
+  "keywords": [
+    "vue",
+    "medusa",
+    "vue-medusa",
+    "http",
+    "$http",
+    "vue plugin",
+    "wrapper"
+  ],
+  "author": "Alexis Tyler <xo@wvvw.me> (https://wvvw.me/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OmgImAlexis/vue-medusa/issues"
+  },
+  "homepage": "https://wvvw.me",
+  "dependencies": {
+    "medusa-lib": "*"
+  },
+  "devDependencies": {
+    "babel-core": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglifyjs": "^0.6.2",
+    "vue": "^2.5.13"
+  },
+  "peerDependencies": {
+    "vue": ">= 1.0.0"
+  },
+  "xo": {
+    "envs": [
+      "browser",
+      "node"
+    ],
+    "globals": [
+      "define",
+      "Vue"
+    ]
+  }
+}
