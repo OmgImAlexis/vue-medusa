@@ -1,6 +1,6 @@
 {
   "name": "vue-medusa",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A small wrapper for integrating medusa to Vuejs",
   "main": "dist/vue-medusa.min.js",
   "types": "index.d.ts",
